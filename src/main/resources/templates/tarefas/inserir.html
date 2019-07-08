@@ -11,7 +11,7 @@
 	
 	<div class="container">
 		<h3>Inserir Tarefas</h3>
-		<form class="form-horizontal" acction="/tarefas/inserir" method="POST" th:object="${tarefa}">
+		<form class="form-horizontal" action="/tarefas/inserir" method="POST" th:object="${tarefa}">
 			<div class="row">
 				<div class="form-group col-md-6">
 					<div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('titulo')}">

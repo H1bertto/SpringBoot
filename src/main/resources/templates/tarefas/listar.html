@@ -14,8 +14,8 @@
 			<div class="card bg-light mb-3">
 				<div class="card-header" th:text="${tarefa.titulo}"></div>
 				<div class="card-body">
-					<p class="card-text" th:text="${tarefa.descricao}"></p>
-					<p class="card-text" th:text="${'Data de Expiracao: ' + #dates.format(tarefa.dataExpiracao, 'dd/MM/yyyy')}"></p>
+					<p class="card-text" th:text="${tarefa.descricao}"></p>					
+					<p class="card-text" th:text="${'Data de Expiracao: ' + #dates.format(tarefa.dataExpiracao, 'dd/MM/yyyy')}"></p>					
 				</div>
 				<div class="card-footer bg-light">
 					<p>
